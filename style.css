@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #c3c1c1;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.slogan {
+  font-size: 14px;
+  color: #ccc;
+}
+/* -------------------------------------- */
+.dashboard {
+  background-color: #979797;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-content {
+  display: flex;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textsatu {
+  text-align: left;
+  color: #fff;
+
+}
+.textdua{
+  text-align: left;
+  color: #fff;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.text-line {
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  max-width: 70%;
+  height: auto;
+  padding-bottom: 20px;
+}
+/* --------------------------------- */
+.bottom-section {
+  position: relative;
+  margin-top: -20px; /* Agar menutupi sedikit bagian atas */
+}
+
+.rounded-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #fff; /* Warna background */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.left-content {
+  position: relative;
+  text-align: center;
+}
+
+.left-content img {
+  width: 100%; /* Sesuaikan dengan ukuran gambar */
+}
+
+.caption1 {
+  position: absolute;
+  top: 50%; /* Letakkan di tengah vertikal */
+  left: 50%; /* Letakkan di tengah horizontal */
+  transform: translate(-80%, -10%); /* Pusatkan elemen */
+  color: #fff; /* Warna teks */
+  text-align: justify;
+}
+.right-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Jarak antara setiap item */
+}
+
+.caption {
+  margin-left: 20px; /* Jarak antara gambar dan teks */
+}
+
+
+.right-content img {
+  width: 25%; /* Ukuran gambar */
+}
+/* ---------------------------------------------- */
+.origin{
+  background-image: url('img/vip7298-3.png');
+  height: 580px;
+  text-align: center;
+}
+.origin h1{
+  color:#fff;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+.origin .container{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.origin .container .bagian{
+  display: flex;
+  justify-content: space-evenly;
+}
+.origin .container .bagian{
+  background-color: #fff;
+  margin: 30px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.origin img{
+  width: auto;
+  height: 60px;
+  padding: 5px;
+}
+/* ----------------------------------------------------- */
+.origindua{
+  color: rgb(49, 49, 255);
+}
+.origindua h3{
+  margin: 40px;
+}
+.origindua .container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.origindua .container{
+  color:black;
+}
+.origindua .container img{
+  width:90%;
+
+}
+.origindua .container button{
+  color:black;
+  width:120px;
+  border-radius: 10px;
+  background-color: yellow;
+  margin-bottom: 10px;
+  border: #fff;
+
+}
+.satu{
+  color:rgb(236, 228, 228);
+  width:120px;
+  border-radius: 10px;
+  background-color: rgb(0, 136, 255);
+  margin-bottom: 10px;
+  border: #fff;
+}
+.origindua .container img{
+  width:90%;
+
+}
+/* ----------------------------------------------- */
+.origintiga .container .col{
+  height: 100px;
+  display: flex;
+  flex-direction: col;
+  justify-content: flex-start;
+}
+.origintiga .container .col .sekolah{
+  margin-right: 35px;
+  border: solid 1px blue;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.origintiga{
+  color: rgb(49, 49, 255);
+}
+.origintiga h3{
+  margin: 40px;
+}
+.origintiga .row{
+  text-align: center;
+}
